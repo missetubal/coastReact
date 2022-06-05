@@ -7,7 +7,6 @@ export const Nav = styled.nav`
     justify-content: space-between;
     padding: 1em;
     align-items: center;
-    color: white;
 `
 export const NavOptions = styled.ul`
     list-style: none;
