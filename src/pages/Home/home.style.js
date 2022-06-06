@@ -14,7 +14,7 @@ export const Title = styled.h1`
 export const Text = styled.p`
     color: #7b7b7b;
     margin-left: ${props => props.marginLeft || 0}px;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
 `
 export const Link = styled.a`
     background-color: #222;
@@ -27,7 +27,9 @@ export const Link = styled.a`
         background-color: #FFBB33;
     }
 `
-export const TextContainer = styled.div``
+export const TextContainer = styled.div`
+    margin-bottom: 10px;
+`
 export const Span = styled.span`
     color: #FFBB33;
     padding: 0.1em 0.2em;
