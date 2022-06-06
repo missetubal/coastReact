@@ -10,7 +10,7 @@ export default function Navbar() {
             </Pages>
             <NavOptions>
                 <Pages href="/">Home</Pages>
-                <Pages href='./prjects'>Projects</Pages>
+                <Pages href='./projects'>Projects</Pages>
                 <Pages href='./company'>Company</Pages>
                 <Pages href='./contact'>Contact</Pages>
             </NavOptions>
