@@ -1,9 +1,7 @@
-import { ButtonSubmit, ContainerButton } from "./button.style"
+import { ButtonSubmit } from "./button.style"
 
-export default function Button({text}){
+export default function Button({text, handleOnClick}){
     return(
-        <ContainerButton>
-            <ButtonSubmit>{text}</ButtonSubmit>
-        </ContainerButton>
+            <ButtonSubmit onClick={handleOnClick} on>{text}</ButtonSubmit>
     )
 }

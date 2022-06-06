@@ -1,9 +1,5 @@
 import styled from 'styled-components'
 
-export const ContainerButton = styled.div`
-   
-`
-
 export const ButtonSubmit = styled.button`
     background-color: ${props => props.backgroundColor || 'black'};
     color: ${props => props.color || 'white'};
